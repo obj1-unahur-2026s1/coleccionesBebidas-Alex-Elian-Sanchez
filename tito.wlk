@@ -2,7 +2,7 @@ import bebidas.*
 object tito {
   var sustanciaActual = whisky
   var dosisConsumida = 0
- 
+
   method peso() = 70
   method inerciaBase() = 490
   method velocidad() = self.rendimiento() * self.inerciaBase() / self.peso() 
